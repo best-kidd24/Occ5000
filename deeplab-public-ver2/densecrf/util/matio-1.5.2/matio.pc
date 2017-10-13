@@ -1,0 +1,10 @@
+prefix=/home/kidd/software/matio-1.5.2
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: MATIO
+Description: MATIO Library
+Version: 1.5.2
+Libs: -L${libdir} -lmatio  -L/home/kidd/software/zlib-1.2.8/lib -lz
+Cflags: -I${includedir}  -I/home/kidd/software/zlib-1.2.8/include
